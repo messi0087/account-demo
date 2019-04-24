@@ -19,7 +19,7 @@ export default class RecordForm extends Component{
     handleChange(event){
         let name,obj;
         name =event.target.name;
-        console.log(name);
+        // console.log(name);
         this.setState((
             obj ={},
                  obj["" +name] =event.target.value,
